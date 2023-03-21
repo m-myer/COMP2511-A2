@@ -276,10 +276,6 @@
     grid-column: 1/4;
 }
 
-.topNavWrapper label {
-    display: none;
-}
-
 .topNavPages {
     width: 100%;
     height: 100%;

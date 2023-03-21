@@ -1,9 +1,4 @@
 @media screen and (max-width:590px) {
-    .header {
-        display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
     table {
         border: 1pt solid rgba(0, 0, 0, 0.233);
         font-size: 14px;
@@ -14,11 +9,6 @@
 }
 
 @media screen and (min-width:591px) and (max-width: 790px){
-    .header {
-        display: grid;
-        grid-template-rows: 1fr 1fr;
-    }
-
     table {
         border: 1pt solid rgba(0, 0, 0, 0.233);
         font-size: 18px;
@@ -29,10 +19,6 @@
 }
 
 @media screen and (min-width: 791px){
-    .header {
-        display: grid;
-        grid-template-rows: 1fr 1fr;
-    }
     table {
         border: 1pt solid rgba(0, 0, 0, 0.233);
         font-size: 20px;

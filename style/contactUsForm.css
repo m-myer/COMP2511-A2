@@ -18,12 +18,6 @@
 }
 
 @media screen and (max-width:590px) {
-    .header {
-        display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
-
     #form {
         height: fit-content;
     }
@@ -39,11 +33,6 @@
 }
 
 @media screen and (min-width:591px) and (max-width: 790px){
-    .header {
-        display: grid;
-        grid-template-rows: 1fr 1fr;
-    }
-
     #form * {
         font-size: 16px;
     }
@@ -55,11 +44,6 @@
 }
 
 @media screen and (min-width: 791px){
-    .header {
-        display: grid;
-        grid-template-rows: 1fr 1fr;
-    }
-
     #form * {
         font-size: 20px;
     }

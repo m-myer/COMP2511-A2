@@ -56,23 +56,27 @@
                         <br><br>
                         <p> Fields with an asterisk (*) are required </p>
                         <form name="contactUsForm" action="mailto:witwilly@serenebrum.com" method="post">
-                            <labeL>Subject *</labeL><br>
+                            <label>Subject *<br>
                             <input type="text" size="25" maxlength="32" placeholder="Subject" required><br><br>
+                            </label>
 
-                            <label>Email *</label><br>
+                            <label>Email *<br>
                             <input type="email" size="25" name="Email" placeholder="your_email@gmail.com"
                                 pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{2,4}$" required><br><br>
+                            </label>
 
-                            <label>Telephone</label><br>
+                            <label>Telephone<br>
                             <input type="tel" size="25" placeholder="123-456-7890"
                                 pattern="[0-9]{3}[/-][0-9]{3}[/-][0-9]{4}"><span> Ex. 123-456-789</span><br><br>
+                            </label>
 
-                            <label>Date</label><br>
+                            <label>Date<br>
                             <input type="date" name="date">
+                            </label>
                             <br><br>
 
-                            <label> Purpose of contact: </label><br>
-                            <input type="radio" name="purpose" value="inquiry" checked>
+                            <label> Purpose of contact: <br>
+                            <input type="radio" name="purpose" value="inquiry" checked> 
                             <label>General Inquiry</label>
                             <br>
 
@@ -82,13 +86,15 @@
 
                             <input type="radio" name="purpose" value="other">
                             <label>Other</label>
+                            </label>
                             <br>
                             <br>
 
-                            <label>Inquiry *</label><br>
+                            <label>Inquiry *<br>
                             <textarea required rows="10" cols="50"></textarea><br><br>
-
-                            <label> How Did You Hear About Us? (check all that apply) </label><br>
+                            </label>
+                            
+                            <label> How Did You Hear About Us? (check all that apply) <br>
 
                             <input type="checkbox" name="hearAboutUS" value="website">
                             <label>Website</label>
@@ -108,6 +114,7 @@
 
                             <input type="checkbox" name="hearAboutUS" value="work">
                             <label>Work</label>
+                            </label>
                             <br>
                             <br>
 

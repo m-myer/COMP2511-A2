@@ -1,0 +1,118 @@
+.centerSectionContent {
+    border: 8pt ridge rgba(0, 0, 0, 0.164);
+    border-radius: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#form {
+    position: relative;
+    grid-area: 1/2;
+    text-align: left;
+    margin-bottom: 25%;
+    width:100%;
+    font-size: 1.25rem;
+    z-index: 0;
+}
+
+@media screen and (max-width:590px) {
+    .header {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #form {
+        height: fit-content;
+    }
+
+    #form * {
+        font-size: 12px;
+    }
+
+    #form textarea {
+        height: 5em;
+        width: 15em;
+    }
+}
+
+@media screen and (min-width:591px) and (max-width: 790px){
+    .header {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #form * {
+        font-size: 16px;
+    }
+
+    #form textarea {
+        height: 10em;
+        width: 20em;
+    }
+}
+
+@media screen and (min-width: 791px){
+    .header {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #form * {
+        font-size: 20px;
+    }
+
+    #form textarea {
+        height: 15em;
+        width: 30em;
+    }
+}
+
+#form p{
+    align-content: center;
+    color: red;
+}
+
+#formButtons [type="submit"]{
+    background-color: rgb(255, 255, 255);
+    border: 1pt solid black;
+    border-radius: 10%;
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 1.25rem;
+    width: 100px;
+    height: fit-content;
+    padding: 5px;
+}
+
+#formButtons [type="reset"] {
+    background-color: rgb(255, 255, 255);
+    border: 1pt solid black;
+    border-radius: 10%;
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 1.25rem;
+    width: 100px;
+    height: fit-content;
+    padding: 5px;
+}
+
+#formButtons [type="submit"]:hover, #formButtons [type="reset"]:hover{
+    background-color: violet;
+}
+
+form label {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+input {
+    height: 1.5rem;
+    border-radius: 4px;
+}
+
+textarea {
+    border-radius: 2%;
+}

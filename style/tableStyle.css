@@ -1,0 +1,74 @@
+@media screen and (max-width:590px) {
+    .header {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    table {
+        border: 1pt solid rgba(0, 0, 0, 0.233);
+        font-size: 14px;
+    }
+    h2, caption {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:591px) and (max-width: 790px){
+    .header {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    table {
+        border: 1pt solid rgba(0, 0, 0, 0.233);
+        font-size: 18px;
+    }
+    h2, caption {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 791px){
+    .header {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    table {
+        border: 1pt solid rgba(0, 0, 0, 0.233);
+        font-size: 20px;
+    }
+    h2, caption {
+        font-size: 22px;
+    }
+}
+
+.centerSectionContent table{
+    width: 100%;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    background-color: rgb(209, 215, 226, 1.5);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(215, 226, 209,1.5);
+  }
+
+tr:nth-child(odd) {
+    background-color: rgb(226, 209, 215,1.5);
+}
+
+table a:link {
+    color: blue;
+}
+
+table a:visited {
+    color: blue;
+}
+
+table a:hover {
+    color: violet;
+}

@@ -67,7 +67,7 @@
 
                             <label>Telephone<br>
                             <input type="tel" size="25" placeholder="123-456-7890"
-                                pattern="[0-9]{3}[/-][0-9]{3}[/-][0-9]{4}"><span> Ex. 123-456-789</span><br><br>
+                                pattern="[0-9]{3}[/-][0-9]{3}[/-][0-9]{4}"><span> Ex. 123-456-7890</span><br><br>
                             </label>
 
                             <label>Date<br>
@@ -75,18 +75,19 @@
                             </label>
                             <br><br>
 
-                            <label> Purpose of contact: <br>
-                            <input type="radio" name="purpose" value="inquiry" checked> 
-                            <label>General Inquiry</label>
+                            <fieldset>
+                            <legend> Purpose of contact: </legend><br>
+                            <input type="radio" name="purpose" id="inquiry" value="inquiry" checked> 
+                            <label for="inquiry">General Inquiry</label>
                             <br>
 
-                            <input type="radio" name="purpose" value="suggestion">
-                            <label>Suggestion</label>
+                            <input type="radio" name="purpose" id="suggestions" value="suggestion">
+                            <label for="suggestions">Suggestion</label>
                             <br>
 
-                            <input type="radio" name="purpose" value="other">
-                            <label>Other</label>
-                            </label>
+                            <input type="radio" name="purpose" id="other" value="other">
+                            <label for="other">Other</label>
+                            </fieldset>
                             <br>
                             <br>
 
@@ -94,27 +95,29 @@
                             <textarea required rows="10" cols="50"></textarea><br><br>
                             </label>
                             
-                            <label> How Did You Hear About Us? (check all that apply) <br>
+                            <fieldset>
+                            <legend> How Did You Hear About Us? (check all that apply) </legend><br>
 
-                            <input type="checkbox" name="hearAboutUS" value="website">
-                            <label>Website</label>
+                            <input type="checkbox" name="hearAboutUS" id="site" value="website">
+                            <label for="site">Website</label>
                             <br>
 
-                            <input type="checkbox" name="hearAboutUS" value="friend">
-                            <label>Friend</label>
+                            <input type="checkbox" name="hearAboutUS" id="friend" value="friend">
+                            <label for="friend">Friend</label>
                             <br>
 
-                            <input type="checkbox" name="hearAboutUS" value="colleague">
-                            <label>Colleague</label>
+                            <input type="checkbox" name="hearAboutUS" id="colleague" value="colleague">
+                            <label for="colleague">Colleague</label>
                             <br>
 
-                            <input type="checkbox" name="hearAboutUS" value="school">
-                            <label>School</label>
+                            <input type="checkbox" name="hearAboutUS" id="school" value="school">
+                            <label for="school">School</label>
                             <br>
 
-                            <input type="checkbox" name="hearAboutUS" value="work">
-                            <label>Work</label>
+                            <input type="checkbox" name="hearAboutUS" id="work" value="work">
+                            <label for="work">Work</label>
                             </label>
+                            </fieldset>
                             <br>
                             <br>
 
